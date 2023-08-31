@@ -34,7 +34,7 @@
             button3 = new Button();
             label1 = new Label();
             textBox1 = new TextBox();
-            comboBox1 = new ComboBox();
+            button4 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -51,7 +51,7 @@
             // 
             button1.Location = new Point(120, 302);
             button1.Name = "button1";
-            button1.Size = new Size(95, 35);
+            button1.Size = new Size(98, 35);
             button1.TabIndex = 1;
             button1.Text = "Update";
             button1.UseVisualStyleBackColor = true;
@@ -59,18 +59,18 @@
             // 
             // button2
             // 
-            button2.Location = new Point(263, 302);
+            button2.Location = new Point(235, 302);
             button2.Name = "button2";
-            button2.Size = new Size(83, 35);
+            button2.Size = new Size(98, 35);
             button2.TabIndex = 2;
             button2.Text = "Delete";
             button2.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            button3.Location = new Point(390, 302);
+            button3.Location = new Point(355, 302);
             button3.Name = "button3";
-            button3.Size = new Size(91, 35);
+            button3.Size = new Size(98, 35);
             button3.TabIndex = 3;
             button3.Text = "View";
             button3.UseVisualStyleBackColor = true;
@@ -92,20 +92,21 @@
             textBox1.TabIndex = 5;
             textBox1.TextChanged += textBox1_TextChanged;
             // 
-            // comboBox1
+            // button4
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(515, 302);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(97, 23);
-            comboBox1.TabIndex = 6;
+            button4.Location = new Point(486, 302);
+            button4.Name = "button4";
+            button4.Size = new Size(126, 35);
+            button4.TabIndex = 7;
+            button4.Text = "Detailed Report";
+            button4.UseVisualStyleBackColor = true;
             // 
             // ManageBookings
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(840, 450);
-            Controls.Add(comboBox1);
+            Controls.Add(button4);
             Controls.Add(textBox1);
             Controls.Add(label1);
             Controls.Add(button3);
@@ -128,6 +129,6 @@
         private Button button3;
         private Label label1;
         private TextBox textBox1;
-        private ComboBox comboBox1;
+        private Button button4;
     }
 }
