@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             groupBox1 = new GroupBox();
+            groupBox2 = new GroupBox();
+            button2 = new Button();
+            label5 = new Label();
             label4 = new Label();
             comboBox1 = new ComboBox();
             label3 = new Label();
@@ -38,9 +41,6 @@
             textBox2 = new TextBox();
             textBox1 = new TextBox();
             btn_Login = new Button();
-            groupBox2 = new GroupBox();
-            label5 = new Label();
-            button2 = new Button();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             SuspendLayout();
@@ -63,6 +63,35 @@
             groupBox1.Size = new Size(481, 518);
             groupBox1.TabIndex = 10;
             groupBox1.TabStop = false;
+            // 
+            // groupBox2
+            // 
+            groupBox2.BackColor = SystemColors.ControlDarkDark;
+            groupBox2.Controls.Add(button2);
+            groupBox2.Controls.Add(label5);
+            groupBox2.Location = new Point(81, 319);
+            groupBox2.Name = "groupBox2";
+            groupBox2.Size = new Size(323, 49);
+            groupBox2.TabIndex = 11;
+            groupBox2.TabStop = false;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(143, 11);
+            button2.Name = "button2";
+            button2.Size = new Size(121, 32);
+            button2.TabIndex = 20;
+            button2.Text = "Create An Account";
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(6, 19);
+            label5.Name = "label5";
+            label5.Size = new Size(143, 15);
+            label5.TabIndex = 19;
+            label5.Text = "New to Isintu Bookings?   ";
             // 
             // label4
             // 
@@ -139,35 +168,6 @@
             btn_Login.TabIndex = 10;
             btn_Login.Text = "Clear";
             btn_Login.UseVisualStyleBackColor = true;
-            // 
-            // groupBox2
-            // 
-            groupBox2.BackColor = SystemColors.ControlDarkDark;
-            groupBox2.Controls.Add(button2);
-            groupBox2.Controls.Add(label5);
-            groupBox2.Location = new Point(98, 323);
-            groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(323, 49);
-            groupBox2.TabIndex = 11;
-            groupBox2.TabStop = false;
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Location = new Point(6, 19);
-            label5.Name = "label5";
-            label5.Size = new Size(143, 15);
-            label5.TabIndex = 19;
-            label5.Text = "New to Isintu Bookings?   ";
-            // 
-            // button2
-            // 
-            button2.Location = new Point(143, 11);
-            button2.Name = "button2";
-            button2.Size = new Size(102, 32);
-            button2.TabIndex = 20;
-            button2.Text = "Register";
-            button2.UseVisualStyleBackColor = true;
             // 
             // Login
             // 
