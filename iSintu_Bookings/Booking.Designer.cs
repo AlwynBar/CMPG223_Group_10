@@ -50,9 +50,6 @@
             numericUpDown1 = new NumericUpDown();
             numericUpDown2 = new NumericUpDown();
             button1 = new Button();
-            button2 = new Button();
-            panel1 = new Panel();
-            label9 = new Label();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -265,42 +262,14 @@
             button1.Name = "button1";
             button1.Size = new Size(146, 40);
             button1.TabIndex = 24;
-            button1.Text = "Proceed to Checkout";
+            button1.Text = "Proceed to Activities";
             button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            button2.Location = new Point(815, 377);
-            button2.Name = "button2";
-            button2.Size = new Size(75, 23);
-            button2.TabIndex = 25;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
-            // 
-            // panel1
-            // 
-            panel1.Location = new Point(815, 432);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(305, 185);
-            panel1.TabIndex = 26;
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.Location = new Point(815, 414);
-            label9.Name = "label9";
-            label9.Size = new Size(38, 15);
-            label9.TabIndex = 27;
-            label9.Text = "label9";
             // 
             // Booking
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1148, 749);
-            Controls.Add(label9);
-            Controls.Add(panel1);
-            Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(numericUpDown2);
             Controls.Add(numericUpDown1);
@@ -349,8 +318,5 @@
         private NumericUpDown numericUpDown1;
         private NumericUpDown numericUpDown2;
         private Button button1;
-        private Button button2;
-        private Panel panel1;
-        private Label label9;
     }
 }

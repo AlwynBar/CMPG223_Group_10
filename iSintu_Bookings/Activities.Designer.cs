@@ -28,191 +28,191 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Activities_gb = new System.Windows.Forms.GroupBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.Activities_gb.SuspendLayout();
-            this.SuspendLayout();
+            Activities_gb = new GroupBox();
+            label6 = new Label();
+            label5 = new Label();
+            label4 = new Label();
+            label3 = new Label();
+            label2 = new Label();
+            label1 = new Label();
+            checkBox6 = new CheckBox();
+            checkBox5 = new CheckBox();
+            checkBox4 = new CheckBox();
+            checkBox3 = new CheckBox();
+            checkBox2 = new CheckBox();
+            checkBox1 = new CheckBox();
+            button1 = new Button();
+            button2 = new Button();
+            Activities_gb.SuspendLayout();
+            SuspendLayout();
             // 
             // Activities_gb
             // 
-            this.Activities_gb.Controls.Add(this.label6);
-            this.Activities_gb.Controls.Add(this.label5);
-            this.Activities_gb.Controls.Add(this.label4);
-            this.Activities_gb.Controls.Add(this.label3);
-            this.Activities_gb.Controls.Add(this.label2);
-            this.Activities_gb.Controls.Add(this.label1);
-            this.Activities_gb.Controls.Add(this.checkBox6);
-            this.Activities_gb.Controls.Add(this.checkBox5);
-            this.Activities_gb.Controls.Add(this.checkBox4);
-            this.Activities_gb.Controls.Add(this.checkBox3);
-            this.Activities_gb.Controls.Add(this.checkBox2);
-            this.Activities_gb.Controls.Add(this.checkBox1);
-            this.Activities_gb.Location = new System.Drawing.Point(12, 12);
-            this.Activities_gb.Name = "Activities_gb";
-            this.Activities_gb.Size = new System.Drawing.Size(270, 291);
-            this.Activities_gb.TabIndex = 0;
-            this.Activities_gb.TabStop = false;
-            this.Activities_gb.Text = "Choose Activities:";
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(6, 22);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(83, 19);
-            this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(6, 63);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(83, 19);
-            this.checkBox2.TabIndex = 1;
-            this.checkBox2.Text = "checkBox2";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(6, 103);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(83, 19);
-            this.checkBox3.TabIndex = 2;
-            this.checkBox3.Text = "checkBox3";
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // checkBox4
-            // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(6, 143);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(83, 19);
-            this.checkBox4.TabIndex = 3;
-            this.checkBox4.Text = "checkBox4";
-            this.checkBox4.UseVisualStyleBackColor = true;
-            // 
-            // checkBox5
-            // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(6, 183);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(83, 19);
-            this.checkBox5.TabIndex = 4;
-            this.checkBox5.Text = "checkBox5";
-            this.checkBox5.UseVisualStyleBackColor = true;
-            // 
-            // checkBox6
-            // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(6, 223);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(83, 19);
-            this.checkBox6.TabIndex = 5;
-            this.checkBox6.Text = "checkBox6";
-            this.checkBox6.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 44);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 15);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "label1";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 85);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 15);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "label2";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(6, 125);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(38, 15);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "label3";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(6, 165);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(38, 15);
-            this.label4.TabIndex = 9;
-            this.label4.Text = "label4";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(6, 205);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(38, 15);
-            this.label5.TabIndex = 10;
-            this.label5.Text = "label5";
+            Activities_gb.Controls.Add(label6);
+            Activities_gb.Controls.Add(label5);
+            Activities_gb.Controls.Add(label4);
+            Activities_gb.Controls.Add(label3);
+            Activities_gb.Controls.Add(label2);
+            Activities_gb.Controls.Add(label1);
+            Activities_gb.Controls.Add(checkBox6);
+            Activities_gb.Controls.Add(checkBox5);
+            Activities_gb.Controls.Add(checkBox4);
+            Activities_gb.Controls.Add(checkBox3);
+            Activities_gb.Controls.Add(checkBox2);
+            Activities_gb.Controls.Add(checkBox1);
+            Activities_gb.Location = new Point(12, 12);
+            Activities_gb.Name = "Activities_gb";
+            Activities_gb.Size = new Size(270, 291);
+            Activities_gb.TabIndex = 0;
+            Activities_gb.TabStop = false;
+            Activities_gb.Text = "Choose Activities:";
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(6, 245);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(38, 15);
-            this.label6.TabIndex = 11;
-            this.label6.Text = "label6";
+            label6.AutoSize = true;
+            label6.Location = new Point(6, 245);
+            label6.Name = "label6";
+            label6.Size = new Size(38, 15);
+            label6.TabIndex = 11;
+            label6.Text = "label6";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(6, 205);
+            label5.Name = "label5";
+            label5.Size = new Size(38, 15);
+            label5.TabIndex = 10;
+            label5.Text = "label5";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(6, 165);
+            label4.Name = "label4";
+            label4.Size = new Size(38, 15);
+            label4.TabIndex = 9;
+            label4.Text = "label4";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(6, 125);
+            label3.Name = "label3";
+            label3.Size = new Size(38, 15);
+            label3.TabIndex = 8;
+            label3.Text = "label3";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(6, 85);
+            label2.Name = "label2";
+            label2.Size = new Size(38, 15);
+            label2.TabIndex = 7;
+            label2.Text = "label2";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(6, 44);
+            label1.Name = "label1";
+            label1.Size = new Size(38, 15);
+            label1.TabIndex = 6;
+            label1.Text = "label1";
+            // 
+            // checkBox6
+            // 
+            checkBox6.AutoSize = true;
+            checkBox6.Location = new Point(6, 223);
+            checkBox6.Name = "checkBox6";
+            checkBox6.Size = new Size(94, 19);
+            checkBox6.TabIndex = 5;
+            checkBox6.Text = "Horse Riding";
+            checkBox6.UseVisualStyleBackColor = true;
+            // 
+            // checkBox5
+            // 
+            checkBox5.AutoSize = true;
+            checkBox5.Location = new Point(6, 183);
+            checkBox5.Name = "checkBox5";
+            checkBox5.Size = new Size(82, 19);
+            checkBox5.TabIndex = 4;
+            checkBox5.Text = "Go Karting";
+            checkBox5.UseVisualStyleBackColor = true;
+            checkBox5.CheckedChanged += checkBox5_CheckedChanged;
+            // 
+            // checkBox4
+            // 
+            checkBox4.AutoSize = true;
+            checkBox4.Location = new Point(6, 143);
+            checkBox4.Name = "checkBox4";
+            checkBox4.Size = new Size(119, 19);
+            checkBox4.TabIndex = 3;
+            checkBox4.Text = "Mountain Hiking ";
+            checkBox4.UseVisualStyleBackColor = true;
+            // 
+            // checkBox3
+            // 
+            checkBox3.AutoSize = true;
+            checkBox3.Location = new Point(6, 103);
+            checkBox3.Name = "checkBox3";
+            checkBox3.Size = new Size(93, 19);
+            checkBox3.TabIndex = 2;
+            checkBox3.Text = "River Rafting";
+            checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            checkBox2.AutoSize = true;
+            checkBox2.Location = new Point(6, 63);
+            checkBox2.Name = "checkBox2";
+            checkBox2.Size = new Size(95, 19);
+            checkBox2.TabIndex = 1;
+            checkBox2.Text = "Paint Balling ";
+            checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new Point(6, 22);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(91, 19);
+            checkBox1.TabIndex = 0;
+            checkBox1.Text = "Quad Biking";
+            checkBox1.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 309);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            button1.Location = new Point(12, 309);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 1;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(207, 309);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            button2.Location = new Point(119, 309);
+            button2.Name = "button2";
+            button2.Size = new Size(163, 38);
+            button2.TabIndex = 2;
+            button2.Text = "Proceed To Checkout";
+            button2.UseVisualStyleBackColor = true;
             // 
             // Activities
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(294, 359);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.Activities_gb);
-            this.Name = "Activities";
-            this.Text = "Activities";
-            this.Activities_gb.ResumeLayout(false);
-            this.Activities_gb.PerformLayout();
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(294, 359);
+            Controls.Add(button2);
+            Controls.Add(button1);
+            Controls.Add(Activities_gb);
+            Name = "Activities";
+            Text = "Activities";
+            Activities_gb.ResumeLayout(false);
+            Activities_gb.PerformLayout();
+            ResumeLayout(false);
         }
 
         #endregion

@@ -16,5 +16,15 @@ namespace iSintu_Bookings
         {
             InitializeComponent();
         }
+
+        private void Cost_Summary_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

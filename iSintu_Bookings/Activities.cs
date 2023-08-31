@@ -16,5 +16,10 @@ namespace iSintu_Bookings
         {
             InitializeComponent();
         }
+
+        private void checkBox5_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
