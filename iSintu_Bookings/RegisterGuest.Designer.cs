@@ -117,6 +117,7 @@
             // 
             // button1
             // 
+            button1.FlatStyle = FlatStyle.Popup;
             button1.Location = new Point(354, 384);
             button1.Name = "button1";
             button1.Size = new Size(100, 23);

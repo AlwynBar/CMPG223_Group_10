@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             groupBox1 = new GroupBox();
+            label4 = new Label();
+            label3 = new Label();
+            label2 = new Label();
             label1 = new Label();
             checkBox4 = new CheckBox();
             checkBox3 = new CheckBox();
@@ -47,9 +50,7 @@
             numericUpDown1 = new NumericUpDown();
             numericUpDown2 = new NumericUpDown();
             button1 = new Button();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
+            button2 = new Button();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -80,6 +81,33 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Guesthouses and Rates";
             groupBox1.Enter += groupBox1_Enter;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(175, 665);
+            label4.Name = "label4";
+            label4.Size = new Size(39, 15);
+            label4.TabIndex = 22;
+            label4.Text = "Price: ";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(175, 443);
+            label3.Name = "label3";
+            label3.Size = new Size(39, 15);
+            label3.TabIndex = 21;
+            label3.Text = "Price: ";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(175, 257);
+            label2.Name = "label2";
+            label2.Size = new Size(39, 15);
+            label2.TabIndex = 20;
+            label2.Text = "Price: ";
             // 
             // label1
             // 
@@ -238,38 +266,21 @@
             button1.Text = "Proceed to Activities";
             button1.UseVisualStyleBackColor = true;
             // 
-            // label2
+            // button2
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(175, 257);
-            label2.Name = "label2";
-            label2.Size = new Size(39, 15);
-            label2.TabIndex = 20;
-            label2.Text = "Price: ";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(175, 443);
-            label3.Name = "label3";
-            label3.Size = new Size(39, 15);
-            label3.TabIndex = 21;
-            label3.Text = "Price: ";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(175, 665);
-            label4.Name = "label4";
-            label4.Size = new Size(39, 15);
-            label4.TabIndex = 22;
-            label4.Text = "Price: ";
+            button2.Location = new Point(815, 683);
+            button2.Name = "button2";
+            button2.Size = new Size(146, 40);
+            button2.TabIndex = 25;
+            button2.Text = "Proceed to Checkout";
+            button2.UseVisualStyleBackColor = true;
             // 
             // Booking
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1148, 749);
+            Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(numericUpDown2);
             Controls.Add(numericUpDown1);
@@ -318,5 +329,6 @@
         private Label label3;
         private Label label2;
         private Label label4;
+        private Button button2;
     }
 }
