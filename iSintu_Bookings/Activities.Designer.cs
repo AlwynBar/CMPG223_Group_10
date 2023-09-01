@@ -72,54 +72,56 @@
             label6.AutoSize = true;
             label6.Location = new Point(6, 245);
             label6.Name = "label6";
-            label6.Size = new Size(38, 15);
+            label6.Size = new Size(33, 15);
             label6.TabIndex = 11;
-            label6.Text = "label6";
+            label6.Text = "Price";
             // 
             // label5
             // 
             label5.AutoSize = true;
             label5.Location = new Point(6, 205);
             label5.Name = "label5";
-            label5.Size = new Size(38, 15);
+            label5.Size = new Size(33, 15);
             label5.TabIndex = 10;
-            label5.Text = "label5";
+            label5.Text = "Price";
+            label5.Click += label5_Click;
             // 
             // label4
             // 
             label4.AutoSize = true;
             label4.Location = new Point(6, 165);
             label4.Name = "label4";
-            label4.Size = new Size(38, 15);
+            label4.Size = new Size(33, 15);
             label4.TabIndex = 9;
-            label4.Text = "label4";
+            label4.Text = "Price";
+            label4.Click += label4_Click;
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Location = new Point(6, 125);
             label3.Name = "label3";
-            label3.Size = new Size(38, 15);
+            label3.Size = new Size(33, 15);
             label3.TabIndex = 8;
-            label3.Text = "label3";
+            label3.Text = "Price";
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Location = new Point(6, 85);
             label2.Name = "label2";
-            label2.Size = new Size(38, 15);
+            label2.Size = new Size(33, 15);
             label2.TabIndex = 7;
-            label2.Text = "label2";
+            label2.Text = "Price";
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Location = new Point(6, 44);
             label1.Name = "label1";
-            label1.Size = new Size(38, 15);
+            label1.Size = new Size(33, 15);
             label1.TabIndex = 6;
-            label1.Text = "label1";
+            label1.Text = "Price";
             // 
             // checkBox6
             // 
@@ -188,7 +190,7 @@
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 1;
-            button1.Text = "button1";
+            button1.Text = "Go back ";
             button1.UseVisualStyleBackColor = true;
             // 
             // button2

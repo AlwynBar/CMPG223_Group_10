@@ -30,10 +30,8 @@
         {
             groupBox1 = new GroupBox();
             dataGridView1 = new DataGridView();
-            label1 = new Label();
             button1 = new Button();
             button2 = new Button();
-            button3 = new Button();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
@@ -57,50 +55,29 @@
             dataGridView1.Size = new Size(885, 351);
             dataGridView1.TabIndex = 0;
             // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(726, 448);
-            label1.Name = "label1";
-            label1.Size = new Size(38, 15);
-            label1.TabIndex = 1;
-            label1.Text = "label1";
-            // 
             // button1
             // 
             button1.Location = new Point(12, 440);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 1;
-            button1.Text = "button1";
+            button1.Text = "Go Back";
             button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            button2.Location = new Point(231, 431);
+            button2.Location = new Point(228, 440);
             button2.Name = "button2";
             button2.Size = new Size(162, 36);
             button2.TabIndex = 2;
             button2.Text = "Calculate Total Price ";
             button2.UseVisualStyleBackColor = true;
             // 
-            // button3
-            // 
-            button3.Location = new Point(472, 444);
-            button3.Name = "button3";
-            button3.Size = new Size(116, 23);
-            button3.TabIndex = 3;
-            button3.Text = "button3";
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += button3_Click;
-            // 
             // Cost_Summary
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(963, 541);
-            Controls.Add(label1);
-            Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(groupBox1);
@@ -110,7 +87,6 @@
             groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
@@ -119,7 +95,5 @@
         private DataGridView dataGridView1;
         private Button button1;
         private Button button2;
-        private Button button3;
-        private Label label1;
     }
 }
