@@ -32,8 +32,6 @@
             groupBox2 = new GroupBox();
             button2 = new Button();
             label5 = new Label();
-            label4 = new Label();
-            comboBox1 = new ComboBox();
             label3 = new Label();
             button1 = new Button();
             label2 = new Label();
@@ -49,8 +47,6 @@
             // 
             groupBox1.BackColor = SystemColors.AppWorkspace;
             groupBox1.Controls.Add(groupBox2);
-            groupBox1.Controls.Add(label4);
-            groupBox1.Controls.Add(comboBox1);
             groupBox1.Controls.Add(label3);
             groupBox1.Controls.Add(button1);
             groupBox1.Controls.Add(label2);
@@ -69,7 +65,7 @@
             groupBox2.BackColor = SystemColors.ControlDarkDark;
             groupBox2.Controls.Add(button2);
             groupBox2.Controls.Add(label5);
-            groupBox2.Location = new Point(81, 319);
+            groupBox2.Location = new Point(99, 240);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(323, 49);
             groupBox2.TabIndex = 11;
@@ -93,23 +89,6 @@
             label5.TabIndex = 19;
             label5.Text = "New to Isintu Bookings?   ";
             // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(98, 129);
-            label4.Name = "label4";
-            label4.Size = new Size(66, 15);
-            label4.TabIndex = 18;
-            label4.Text = "Guest/Staff";
-            // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(208, 121);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(121, 23);
-            comboBox1.TabIndex = 17;
-            // 
             // label3
             // 
             label3.AutoSize = true;
@@ -121,7 +100,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(81, 389);
+            button1.Location = new Point(99, 310);
             button1.Name = "button1";
             button1.Size = new Size(120, 36);
             button1.TabIndex = 15;
@@ -131,7 +110,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(98, 274);
+            label2.Location = new Point(116, 195);
             label2.Name = "label2";
             label2.Size = new Size(57, 15);
             label2.TabIndex = 14;
@@ -140,7 +119,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(98, 204);
+            label1.Location = new Point(116, 125);
             label1.Name = "label1";
             label1.Size = new Size(60, 15);
             label1.TabIndex = 13;
@@ -148,21 +127,21 @@
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(208, 274);
+            textBox2.Location = new Point(226, 195);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(121, 23);
             textBox2.TabIndex = 12;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(208, 204);
+            textBox1.Location = new Point(226, 125);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(121, 23);
             textBox1.TabIndex = 11;
             // 
             // btn_Login
             // 
-            btn_Login.Location = new Point(242, 389);
+            btn_Login.Location = new Point(260, 310);
             btn_Login.Name = "btn_Login";
             btn_Login.Size = new Size(102, 36);
             btn_Login.TabIndex = 10;
@@ -187,8 +166,6 @@
         #endregion
 
         private GroupBox groupBox1;
-        private Label label4;
-        private ComboBox comboBox1;
         private Label label3;
         private Button button1;
         private Label label2;

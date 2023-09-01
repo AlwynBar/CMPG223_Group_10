@@ -19,3 +19,4 @@ C:\Users\Bongani Tabu\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\obj
 C:\Users\Bongani Tabu\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\obj\Debug\net6.0-windows\iSintu_Bookings.genruntimeconfig.cache
 C:\Users\Bongani Tabu\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\obj\Debug\net6.0-windows\ref\iSintu_Bookings.dll
 C:\Users\Bongani Tabu\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\obj\Debug\net6.0-windows\iSintu_Bookings.RegisterGuest.resources
+C:\Users\Bongani Tabu\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\obj\Debug\net6.0-windows\iSintu_Bookings.Properties.Resources.resources
