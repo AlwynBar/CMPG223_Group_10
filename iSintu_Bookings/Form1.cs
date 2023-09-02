@@ -14,6 +14,7 @@ namespace iSintu_Bookings
         {
             string username = User_txt.Text;
             string password = Passw_txt.Text;
+            string Output = ""; 
 
             string connectionString = "Data Source=ASUSX515-TABU;Initial Catalog=IsintuBookings;Integrated Security=True";
             SqlConnection con = new SqlConnection(connectionString);
@@ -26,7 +27,15 @@ namespace iSintu_Bookings
             con.Open();
 
             SqlDataReader rd = com.ExecuteReader();
-            if (rd.HasRows)
+
+            while (rd.Read())
+            {
+                    Output =    Output + rd.GetValue(0);
+            }
+            MessageBox.Show(Output);
+
+
+           /* if (rd.HasRows)
             {
                 rd.Read();
                 MessageBox.Show("Login successfull.");
@@ -34,7 +43,8 @@ namespace iSintu_Bookings
             else
             {
                 MessageBox.Show("Invalid username or password.");
-            }
+            }*/
+
 
         }
     }
