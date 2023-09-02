@@ -58,9 +58,8 @@ namespace iSintu_Bookings
             try
             {
                 con.Open();
-                //SqlCommand comm = new SqlCommand("SELECT * FROM Guest WHERE guest_name = '" + User_txt.Text + "' AND password = '" + Passw_txt.Text + "'", con);
-                SqlCommand comm1 = new SqlCommand("SELECT * FROM Guest WHERE guest_name = '" + User_txt.Text + "' AND password = '" + Passw_txt.Text + "'", con);
-                SqlCommand comm2 = new SqlCommand("SELECT * FROM Guest WHERE guest_name = '" + User_txt.Text + "' AND password = '" + Passw_txt.Text + "'", con);
+                SqlCommand comm1 = new SqlCommand("SELECT * FROM Guest WHERE guest_name = '" + User_txt.Text + "' AND guest_password = '" + Passw_txt.Text + "'", con);
+                SqlCommand comm2 = new SqlCommand("SELECT * FROM Employees WHERE employees_name = '" + User_txt.Text + "' AND employees_password = '" + Passw_txt.Text + "'", con);
                 myAdapter = new SqlDataAdapter();
                 mydataSet = new DataTable();
 
@@ -83,19 +82,23 @@ namespace iSintu_Bookings
                     while(rd.Read())
                     {
                   
-                        if((rd.GetValue(I) == myParameter) && (rd2.GetValue(I) == myParameter1))
+                        if((rd.GetValue(I) == myParameter) && (rd.GetValue(I) == myParameter1))
                         {
                             MessageBox.Show("Login successful");
                             
                         }
                         else
                         {
-                            MessageBox.Show("Login successful");
+                            MessageBox.Show("Incorrect Details", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            User_txt.Clear();
+                            Passw_txt.Clear();
+                            //to focus on username
+                            User_txt.Focus();
                         }
-
 
                         I++;
                     }
+                    
 
 
                     /*Dashboard myfrmDashboard = new Dashboard();
@@ -103,21 +106,13 @@ namespace iSintu_Bookings
                     this.Hide();*/
                 }
 
-                else
-                {
-                    MessageBox.Show("Incorrect Details", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    User_txt.Clear();
-                    Passw_txt.Clear();
-                    //to focus on username
-                    User_txt.Focus();
-                }
-                con.Close();
+               
             }
             catch (SqlException error)
             {
                 MessageBox.Show(error.Message);
             }
-
+            con.Close();
 
         }
     }
