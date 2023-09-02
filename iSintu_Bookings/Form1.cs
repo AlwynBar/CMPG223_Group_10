@@ -15,7 +15,7 @@ namespace iSintu_Bookings
             string username = User_txt.Text;
             string password = Passw_txt.Text;
 
-            string connectionString = "Server=your_server;Database=your_database;User Id=your_username;Password=your_password;";
+            string connectionString = "Data Source=ASUSX515-TABU;Initial Catalog=IsintuBookings;Integrated Security=True";
             SqlConnection con = new SqlConnection(connectionString);
             SqlCommand com = new SqlCommand("CheckUser", con);
             com.CommandType = CommandType.StoredProcedure;
