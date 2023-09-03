@@ -32,7 +32,6 @@ C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\obj\Debug\
 C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\obj\Debug\net6.0-windows\iSintu_Bookings.Activities.resources
 C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\obj\Debug\net6.0-windows\iSintu_Bookings.Booking.resources
 C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\obj\Debug\net6.0-windows\iSintu_Bookings.Cost_Summary.resources
-C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\obj\Debug\net6.0-windows\iSintu_Bookings.Login.resources
 C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\obj\Debug\net6.0-windows\iSintu_Bookings.ManageBookings.resources
 C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\obj\Debug\net6.0-windows\iSintu_Bookings.Properties.Resources.resources
 C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\obj\Debug\net6.0-windows\iSintu_Bookings.RegisterGuest.resources
@@ -58,3 +57,4 @@ C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\bin\Debug\
 C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\obj\Debug\net6.0-windows\iSintu_Bookings.csproj.CopyComplete
 C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\obj\Debug\net6.0-windows\iSintu_Bookings.genruntimeconfig.cache
 C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\obj\Debug\net6.0-windows\ref\iSintu_Bookings.dll
+C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\obj\Debug\net6.0-windows\iSintu_Bookings.Log1.resources
