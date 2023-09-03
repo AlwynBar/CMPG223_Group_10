@@ -70,7 +70,7 @@ namespace iSintu_Bookings
                 {
                     username = User_txt.Text;
                     password = Passw_txt.Text;
-                    SqlParameter myParameter = new SqlParameter("guest_name",User_txt.Text);
+                    SqlParameter myParameter = new SqlParameter("guest_name", User_txt.Text);
                     comm1.Parameters.Add(myParameter);
                     SqlParameter myParameter1 = new SqlParameter("guest_password", Passw_txt.Text);
                     comm1.Parameters.Add(myParameter1);
@@ -78,14 +78,14 @@ namespace iSintu_Bookings
                     SqlDataReader rd2 = comm2.ExecuteReader();
                     string Output = "";
 
-                    int I = 0; 
-                    while(rd.Read())
+                    int I = 0;
+                    while (rd.Read())
                     {
-                  
-                        if((rd.GetValue(I) == myParameter) && (rd.GetValue(I) == myParameter1))
+
+                        if ((rd.GetValue(I) == myParameter) && (rd.GetValue(I) == myParameter1))
                         {
                             MessageBox.Show("Login successful");
-                            
+
                         }
                         else
                         {
@@ -98,7 +98,7 @@ namespace iSintu_Bookings
 
                         I++;
                     }
-                    
+
 
 
                     /*Dashboard myfrmDashboard = new Dashboard();
@@ -106,13 +106,20 @@ namespace iSintu_Bookings
                     this.Hide();*/
                 }
 
-               
+
             }
             catch (SqlException error)
             {
                 MessageBox.Show(error.Message);
             }
             con.Close();
+
+        }
+
+        private void btn_Login_Click(object sender, EventArgs e)
+        {
+            Passw_txt.Clear();
+            User_txt.Clear();
 
         }
     }
