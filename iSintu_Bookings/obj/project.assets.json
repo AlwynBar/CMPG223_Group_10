@@ -470,23 +470,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Bongani Tabu\\.nuget\\packages\\": {},
+    "C:\\Users\\allas\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bongani Tabu\\Source\\Repos\\AlwynBar\\CMPG223_Group_10\\iSintu_Bookings\\iSintu_Bookings.csproj",
+      "projectUniqueName": "C:\\Users\\allas\\Source\\Repos\\AlwynBar\\CMPG223_Group_10\\iSintu_Bookings\\iSintu_Bookings.csproj",
       "projectName": "iSintu_Bookings",
-      "projectPath": "C:\\Users\\Bongani Tabu\\Source\\Repos\\AlwynBar\\CMPG223_Group_10\\iSintu_Bookings\\iSintu_Bookings.csproj",
-      "packagesPath": "C:\\Users\\Bongani Tabu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bongani Tabu\\Source\\Repos\\AlwynBar\\CMPG223_Group_10\\iSintu_Bookings\\obj\\",
+      "projectPath": "C:\\Users\\allas\\Source\\Repos\\AlwynBar\\CMPG223_Group_10\\iSintu_Bookings\\iSintu_Bookings.csproj",
+      "packagesPath": "C:\\Users\\allas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\allas\\Source\\Repos\\AlwynBar\\CMPG223_Group_10\\iSintu_Bookings\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Bongani Tabu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\allas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -495,6 +495,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -537,7 +538,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.413\\RuntimeIdentifierGraph.json"
       }
     }
   }

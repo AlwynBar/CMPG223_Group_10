@@ -28,144 +28,146 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
-            checkBox1 = new CheckBox();
-            label3 = new Label();
-            label4 = new Label();
-            label5 = new Label();
-            textBox1 = new TextBox();
-            label1 = new Label();
-            button1 = new Button();
-            label2 = new Label();
-            SuspendLayout();
+            this.Surname_txt = new System.Windows.Forms.TextBox();
+            this.Email_txt = new System.Windows.Forms.TextBox();
+            this.Name_txt = new System.Windows.Forms.TextBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.ID_txt = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.SuspendLayout();
             // 
-            // textBox2
+            // Surname_txt
             // 
-            textBox2.Location = new Point(350, 214);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 23);
-            textBox2.TabIndex = 1;
+            this.Surname_txt.Location = new System.Drawing.Point(350, 214);
+            this.Surname_txt.Name = "Surname_txt";
+            this.Surname_txt.Size = new System.Drawing.Size(100, 23);
+            this.Surname_txt.TabIndex = 1;
             // 
-            // textBox3
+            // Email_txt
             // 
-            textBox3.Location = new Point(350, 275);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(100, 23);
-            textBox3.TabIndex = 2;
+            this.Email_txt.Location = new System.Drawing.Point(350, 275);
+            this.Email_txt.Name = "Email_txt";
+            this.Email_txt.Size = new System.Drawing.Size(100, 23);
+            this.Email_txt.TabIndex = 2;
             // 
-            // textBox4
+            // Name_txt
             // 
-            textBox4.Location = new Point(354, 157);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(100, 23);
-            textBox4.TabIndex = 3;
+            this.Name_txt.Location = new System.Drawing.Point(354, 157);
+            this.Name_txt.Name = "Name_txt";
+            this.Name_txt.Size = new System.Drawing.Size(100, 23);
+            this.Name_txt.TabIndex = 3;
             // 
             // checkBox1
             // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(350, 329);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(75, 19);
-            checkBox1.TabIndex = 4;
-            checkBox1.Text = "Check In ";
-            checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(350, 329);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(75, 19);
+            this.checkBox1.TabIndex = 4;
+            this.checkBox1.Text = "Check In ";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(216, 275);
-            label3.Name = "label3";
-            label3.Size = new Size(36, 15);
-            label3.TabIndex = 7;
-            label3.Text = "Email";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(216, 275);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(36, 15);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Email";
             // 
             // label4
             // 
-            label4.AutoSize = true;
-            label4.Location = new Point(216, 157);
-            label4.Name = "label4";
-            label4.Size = new Size(39, 15);
-            label4.TabIndex = 8;
-            label4.Text = "Name";
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(216, 157);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(39, 15);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Name";
             // 
             // label5
             // 
-            label5.AutoSize = true;
-            label5.Location = new Point(216, 214);
-            label5.Name = "label5";
-            label5.Size = new Size(54, 15);
-            label5.TabIndex = 9;
-            label5.Text = "Surname";
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(216, 214);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(54, 15);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Surname";
             // 
-            // textBox1
+            // ID_txt
             // 
-            textBox1.Location = new Point(354, 92);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
-            textBox1.TabIndex = 0;
+            this.ID_txt.Location = new System.Drawing.Point(354, 92);
+            this.ID_txt.Name = "ID_txt";
+            this.ID_txt.Size = new System.Drawing.Size(100, 23);
+            this.ID_txt.TabIndex = 0;
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(216, 95);
-            label1.Name = "label1";
-            label1.Size = new Size(98, 15);
-            label1.TabIndex = 5;
-            label1.Text = "Guest ID Number";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(216, 95);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(98, 15);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Guest ID Number";
             // 
             // button1
             // 
-            button1.FlatStyle = FlatStyle.Popup;
-            button1.Location = new Point(354, 384);
-            button1.Name = "button1";
-            button1.Size = new Size(100, 23);
-            button1.TabIndex = 10;
-            button1.Text = "Register";
-            button1.UseVisualStyleBackColor = true;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Location = new System.Drawing.Point(354, 384);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(100, 23);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "Register";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label2
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(264, 35);
-            label2.Name = "label2";
-            label2.Size = new Size(248, 15);
-            label2.TabIndex = 11;
-            label2.Text = "Create an account with us on Isintu Bookings ";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(264, 35);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(248, 15);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "Create an account with us on Isintu Bookings ";
             // 
             // RegisterGuest
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(label2);
-            Controls.Add(button1);
-            Controls.Add(label5);
-            Controls.Add(label4);
-            Controls.Add(label3);
-            Controls.Add(label1);
-            Controls.Add(checkBox1);
-            Controls.Add(textBox4);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Name = "RegisterGuest";
-            Text = "RegisterGuest";
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.Name_txt);
+            this.Controls.Add(this.Email_txt);
+            this.Controls.Add(this.Surname_txt);
+            this.Controls.Add(this.ID_txt);
+            this.Name = "RegisterGuest";
+            this.Text = "RegisterGuest";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
 
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox4;
+        private TextBox Surname_txt;
+        private TextBox Email_txt;
+        private TextBox Name_txt;
         private CheckBox checkBox1;
         private Label label3;
         private Label label4;
         private Label label5;
-        private TextBox textBox1;
+        private TextBox ID_txt;
         private Label label1;
         private Button button1;
         private Label label2;
