@@ -27,7 +27,7 @@ namespace iSintu_Bookings
             try
             {
                 con.Open();
-                SqlCommand comm = new SqlCommand("SELECT * FROM Details WHERE username = '" + User_txt.Text + "' AND password = '" + Passw_txt.Text + "'", con);
+                SqlCommand comm = new SqlCommand("SELECT * FROM Guest WHERE guest_name = '" + User_txt.Text + "' AND guest_password = '" + Passw_txt.Text + "'", con);
                 myAdapter = new SqlDataAdapter();
                 mydataSet = new DataTable();
 
