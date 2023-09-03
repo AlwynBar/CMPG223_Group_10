@@ -28,3 +28,33 @@ C:\Users\Bongani Tabu\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\bin
 C:\Users\Bongani Tabu\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Bongani Tabu\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\obj\Debug\net6.0-windows\iSintu_Bookings.csproj.AssemblyReference.cache
 C:\Users\Bongani Tabu\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\obj\Debug\net6.0-windows\iSintu_Bookings.csproj.CopyComplete
+C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\obj\Debug\net6.0-windows\iSintu_Bookings.csproj.AssemblyReference.cache
+C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\obj\Debug\net6.0-windows\iSintu_Bookings.Activities.resources
+C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\obj\Debug\net6.0-windows\iSintu_Bookings.Booking.resources
+C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\obj\Debug\net6.0-windows\iSintu_Bookings.Cost_Summary.resources
+C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\obj\Debug\net6.0-windows\iSintu_Bookings.Login.resources
+C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\obj\Debug\net6.0-windows\iSintu_Bookings.ManageBookings.resources
+C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\obj\Debug\net6.0-windows\iSintu_Bookings.Properties.Resources.resources
+C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\obj\Debug\net6.0-windows\iSintu_Bookings.RegisterGuest.resources
+C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\obj\Debug\net6.0-windows\iSintu_Bookings.csproj.GenerateResource.cache
+C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\obj\Debug\net6.0-windows\iSintu_Bookings.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\obj\Debug\net6.0-windows\iSintu_Bookings.AssemblyInfoInputs.cache
+C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\obj\Debug\net6.0-windows\iSintu_Bookings.AssemblyInfo.cs
+C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\obj\Debug\net6.0-windows\iSintu_Bookings.csproj.CoreCompileInputs.cache
+C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\obj\Debug\net6.0-windows\iSintu_Bookings.dll
+C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\obj\Debug\net6.0-windows\refint\iSintu_Bookings.dll
+C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\obj\Debug\net6.0-windows\iSintu_Bookings.pdb
+C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\bin\Debug\net6.0-windows\iSintu_Bookings.exe
+C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\bin\Debug\net6.0-windows\iSintu_Bookings.deps.json
+C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\bin\Debug\net6.0-windows\iSintu_Bookings.runtimeconfig.json
+C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\bin\Debug\net6.0-windows\iSintu_Bookings.dll
+C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\bin\Debug\net6.0-windows\iSintu_Bookings.pdb
+C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\obj\Debug\net6.0-windows\iSintu_Bookings.csproj.CopyComplete
+C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\obj\Debug\net6.0-windows\iSintu_Bookings.genruntimeconfig.cache
+C:\Users\allas\Source\Repos\AlwynBar\CMPG223_Group_10\iSintu_Bookings\obj\Debug\net6.0-windows\ref\iSintu_Bookings.dll

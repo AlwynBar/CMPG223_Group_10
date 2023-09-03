@@ -49,7 +49,7 @@ namespace iSintu_Bookings
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            if(Name_txt.Text != "")
+            /*if (Name_txt.Text != "")
             {
                 string query = "";
 
@@ -57,7 +57,7 @@ namespace iSintu_Bookings
                 SqlCommand cmd1 = new SqlCommand(query, con);
                 cmd1.ExecuteNonQuery();
 
-                /*con = new SqlConnection();
+                con = new SqlConnection();
                 con.Open();
                 string query = "";
 
@@ -84,14 +84,14 @@ namespace iSintu_Bookings
                 else if (checkBox4.Checked)
                 {
                     query = "UPDATE Booking SET House_name = ''";
-                }*/
+                }
             }
             catch (SqlException error)
             {
                 MessageBox.Show(error.Message);
             }
             con.Close();
-        }
+        }*/
         }
     }
 }

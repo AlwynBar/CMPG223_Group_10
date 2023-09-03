@@ -39,7 +39,8 @@ namespace iSintu_Bookings
                     username = User_txt.Text;
                     password = Passw_txt.Text;
 
-                    
+                    Booking booking = new Booking();
+                    booking.Show();
                     this.Hide();
                 }
 
@@ -80,45 +81,3 @@ namespace iSintu_Bookings
         }
     }
 }
-/*string username = txtLoginUsername.Text;
-string password = txtLoginPassword.Text;
-
-string sql = "SELECT * FROM tblUsers WHERE userUsername = '" + username + "'";
-
-using (OleDbConnection connection = new OleDbConnection(connectionString))
-{
-    adapter = new OleDbDataAdapter(sql, connectionString);
-    dataTable = new DataTable();
-    dataTable.Clear();
-    adapter.Fill(dataTable);
-}
-
-if (dataTable.Rows.Count == 1)
-{
-    DataRow row;
-    row = dataTable.Rows[0];
-    if ((string)row["userPassword"] == password)
-    {
-        loadMessages();
-        fillMessages();
-        changeScroller();
-
-        accountLoggedIn = (string)row["userUsername"];
-        accountLoggedID = (int)row["userID"];
-        lblMessageboardAccount.Text = "User: " + accountLoggedIn;
-        lblNewmessageAccount.Text = "User: " + accountLoggedIn;
-
-        if ((bool)row["userAdmin"] == true)
-            btnMessageboardAdminPage.Visible = true;
-        else
-            btnMessageboardAdminPage.Visible = false;
-
-        pnlfrmMessageboard.Visible = true;
-        pnlfrmLogin.Visible = false;
-    }
-    else
-        MessageBox.Show("The password you have entered is incorrect!", "Error");
-}
-else
-    MessageBox.Show("Account does not exist", "Error");
-        }*/
