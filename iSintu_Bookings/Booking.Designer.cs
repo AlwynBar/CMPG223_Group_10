@@ -29,289 +29,298 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Booking));
-            groupBox1 = new GroupBox();
-            label4 = new Label();
-            label3 = new Label();
-            label2 = new Label();
-            label1 = new Label();
-            checkBox4 = new CheckBox();
-            checkBox3 = new CheckBox();
-            checkBox2 = new CheckBox();
-            checkBox1 = new CheckBox();
-            pictureBox4 = new PictureBox();
-            pictureBox3 = new PictureBox();
-            pictureBox2 = new PictureBox();
-            pictureBox1 = new PictureBox();
-            dateTimePicker1 = new DateTimePicker();
-            label5 = new Label();
-            dateTimePicker2 = new DateTimePicker();
-            label6 = new Label();
-            label7 = new Label();
-            label8 = new Label();
-            numericUpDown1 = new NumericUpDown();
-            numericUpDown2 = new NumericUpDown();
-            button1 = new Button();
-            button2 = new Button();
-            groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown2).BeginInit();
-            SuspendLayout();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label5 = new System.Windows.Forms.Label();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
+            this.SuspendLayout();
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(label4);
-            groupBox1.Controls.Add(label3);
-            groupBox1.Controls.Add(label2);
-            groupBox1.Controls.Add(label1);
-            groupBox1.Controls.Add(checkBox4);
-            groupBox1.Controls.Add(checkBox3);
-            groupBox1.Controls.Add(checkBox2);
-            groupBox1.Controls.Add(checkBox1);
-            groupBox1.Controls.Add(pictureBox4);
-            groupBox1.Controls.Add(pictureBox3);
-            groupBox1.Controls.Add(pictureBox2);
-            groupBox1.Controls.Add(pictureBox1);
-            groupBox1.Location = new Point(0, 0);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(809, 746);
-            groupBox1.TabIndex = 0;
-            groupBox1.TabStop = false;
-            groupBox1.Text = "Guesthouses and Rates";
-            groupBox1.Enter += groupBox1_Enter;
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.checkBox4);
+            this.groupBox1.Controls.Add(this.checkBox3);
+            this.groupBox1.Controls.Add(this.checkBox2);
+            this.groupBox1.Controls.Add(this.checkBox1);
+            this.groupBox1.Controls.Add(this.pictureBox4);
+            this.groupBox1.Controls.Add(this.pictureBox3);
+            this.groupBox1.Controls.Add(this.pictureBox2);
+            this.groupBox1.Controls.Add(this.pictureBox1);
+            this.groupBox1.Location = new System.Drawing.Point(0, 0);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(809, 746);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Guesthouses and Rates";
             // 
             // label4
             // 
-            label4.AutoSize = true;
-            label4.Location = new Point(175, 665);
-            label4.Name = "label4";
-            label4.Size = new Size(39, 15);
-            label4.TabIndex = 22;
-            label4.Text = "Price: ";
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(175, 665);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(39, 15);
+            this.label4.TabIndex = 22;
+            this.label4.Text = "Price: ";
             // 
             // label3
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(175, 443);
-            label3.Name = "label3";
-            label3.Size = new Size(39, 15);
-            label3.TabIndex = 21;
-            label3.Text = "Price: ";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(175, 443);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(39, 15);
+            this.label3.TabIndex = 21;
+            this.label3.Text = "Price: ";
             // 
             // label2
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(175, 257);
-            label2.Name = "label2";
-            label2.Size = new Size(39, 15);
-            label2.TabIndex = 20;
-            label2.Text = "Price: ";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(175, 257);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(39, 15);
+            this.label2.TabIndex = 20;
+            this.label2.Text = "Price: ";
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(175, 78);
-            label1.Name = "label1";
-            label1.Size = new Size(39, 15);
-            label1.TabIndex = 16;
-            label1.Text = "Price: ";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(175, 78);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(39, 15);
+            this.label1.TabIndex = 16;
+            this.label1.Text = "Price: ";
             // 
             // checkBox4
             // 
-            checkBox4.AutoSize = true;
-            checkBox4.Location = new Point(175, 626);
-            checkBox4.Name = "checkBox4";
-            checkBox4.Size = new Size(83, 19);
-            checkBox4.TabIndex = 15;
-            checkBox4.Text = "checkBox4";
-            checkBox4.UseVisualStyleBackColor = true;
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Location = new System.Drawing.Point(175, 626);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(83, 19);
+            this.checkBox4.TabIndex = 15;
+            this.checkBox4.Text = "checkBox4";
+            this.checkBox4.UseVisualStyleBackColor = true;
             // 
             // checkBox3
             // 
-            checkBox3.AutoSize = true;
-            checkBox3.Location = new Point(175, 410);
-            checkBox3.Name = "checkBox3";
-            checkBox3.Size = new Size(147, 19);
-            checkBox3.TabIndex = 14;
-            checkBox3.Text = "Ndlunkulu Guesthouse";
-            checkBox3.UseVisualStyleBackColor = true;
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Location = new System.Drawing.Point(175, 410);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(147, 19);
+            this.checkBox3.TabIndex = 14;
+            this.checkBox3.Text = "Ndlunkulu Guesthouse";
+            this.checkBox3.UseVisualStyleBackColor = true;
             // 
             // checkBox2
             // 
-            checkBox2.AutoSize = true;
-            checkBox2.Location = new Point(175, 216);
-            checkBox2.Name = "checkBox2";
-            checkBox2.Size = new Size(167, 19);
-            checkBox2.TabIndex = 13;
-            checkBox2.Text = "Willow Brooke Guesthouse";
-            checkBox2.UseVisualStyleBackColor = true;
-            checkBox2.CheckedChanged += checkBox2_CheckedChanged;
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(175, 216);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(167, 19);
+            this.checkBox2.TabIndex = 13;
+            this.checkBox2.Text = "Willow Brooke Guesthouse";
+            this.checkBox2.UseVisualStyleBackColor = true;
             // 
             // checkBox1
             // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(175, 56);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(137, 19);
-            checkBox1.TabIndex = 12;
-            checkBox1.Text = "Explorer Guesthouse ";
-            checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(175, 56);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(137, 19);
+            this.checkBox1.TabIndex = 12;
+            this.checkBox1.Text = "Explorer Guesthouse ";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // pictureBox4
             // 
-            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(6, 623);
-            pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(157, 136);
-            pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox4.TabIndex = 11;
-            pictureBox4.TabStop = false;
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(6, 623);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(157, 136);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 11;
+            this.pictureBox4.TabStop = false;
             // 
             // pictureBox3
             // 
-            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(12, 410);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(157, 136);
-            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox3.TabIndex = 10;
-            pictureBox3.TabStop = false;
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(12, 410);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(157, 136);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 10;
+            this.pictureBox3.TabStop = false;
             // 
             // pictureBox2
             // 
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(12, 216);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(157, 136);
-            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox2.TabIndex = 9;
-            pictureBox2.TabStop = false;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(12, 216);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(157, 136);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 9;
+            this.pictureBox2.TabStop = false;
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(12, 56);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(157, 136);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 8;
-            pictureBox1.TabStop = false;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(12, 56);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(157, 136);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
             // 
             // dateTimePicker1
             // 
-            dateTimePicker1.Location = new Point(910, 39);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(200, 23);
-            dateTimePicker1.TabIndex = 1;
+            this.dateTimePicker1.Location = new System.Drawing.Point(910, 39);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 23);
+            this.dateTimePicker1.TabIndex = 1;
             // 
             // label5
             // 
-            label5.AutoSize = true;
-            label5.Location = new Point(815, 39);
-            label5.Name = "label5";
-            label5.Size = new Size(80, 15);
-            label5.TabIndex = 17;
-            label5.Text = "Check in Date";
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(815, 39);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(80, 15);
+            this.label5.TabIndex = 17;
+            this.label5.Text = "Check in Date";
             // 
             // dateTimePicker2
             // 
-            dateTimePicker2.Location = new Point(910, 84);
-            dateTimePicker2.Name = "dateTimePicker2";
-            dateTimePicker2.Size = new Size(200, 23);
-            dateTimePicker2.TabIndex = 18;
-            dateTimePicker2.ValueChanged += dateTimePicker2_ValueChanged;
+            this.dateTimePicker2.Location = new System.Drawing.Point(910, 84);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(200, 23);
+            this.dateTimePicker2.TabIndex = 18;
             // 
             // label6
             // 
-            label6.AutoSize = true;
-            label6.Location = new Point(815, 84);
-            label6.Name = "label6";
-            label6.Size = new Size(88, 15);
-            label6.TabIndex = 19;
-            label6.Text = "Check out Date";
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(815, 84);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(88, 15);
+            this.label6.TabIndex = 19;
+            this.label6.Text = "Check out Date";
             // 
             // label7
             // 
-            label7.AutoSize = true;
-            label7.Location = new Point(815, 169);
-            label7.Name = "label7";
-            label7.Size = new Size(76, 15);
-            label7.TabIndex = 20;
-            label7.Text = "No Of Adults";
-            label7.Click += label7_Click;
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(815, 169);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(76, 15);
+            this.label7.TabIndex = 20;
+            this.label7.Text = "No Of Adults";
             // 
             // label8
             // 
-            label8.AutoSize = true;
-            label8.Location = new Point(815, 236);
-            label8.Name = "label8";
-            label8.Size = new Size(90, 15);
-            label8.TabIndex = 21;
-            label8.Text = "No Of Children ";
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(815, 236);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(90, 15);
+            this.label8.TabIndex = 21;
+            this.label8.Text = "No Of Children ";
             // 
             // numericUpDown1
             // 
-            numericUpDown1.Location = new Point(941, 167);
-            numericUpDown1.Name = "numericUpDown1";
-            numericUpDown1.Size = new Size(120, 23);
-            numericUpDown1.TabIndex = 22;
+            this.numericUpDown1.Location = new System.Drawing.Point(941, 167);
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(120, 23);
+            this.numericUpDown1.TabIndex = 22;
             // 
             // numericUpDown2
             // 
-            numericUpDown2.Location = new Point(941, 228);
-            numericUpDown2.Name = "numericUpDown2";
-            numericUpDown2.Size = new Size(120, 23);
-            numericUpDown2.TabIndex = 23;
+            this.numericUpDown2.Location = new System.Drawing.Point(941, 228);
+            this.numericUpDown2.Name = "numericUpDown2";
+            this.numericUpDown2.Size = new System.Drawing.Size(120, 23);
+            this.numericUpDown2.TabIndex = 23;
             // 
             // button1
             // 
-            button1.Location = new Point(815, 623);
-            button1.Name = "button1";
-            button1.Size = new Size(146, 40);
-            button1.TabIndex = 24;
-            button1.Text = "Proceed to Activities";
-            button1.UseVisualStyleBackColor = true;
+            this.button1.Location = new System.Drawing.Point(815, 573);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(146, 40);
+            this.button1.TabIndex = 24;
+            this.button1.Text = "Proceed to Activities";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            button2.Location = new Point(815, 683);
-            button2.Name = "button2";
-            button2.Size = new Size(146, 40);
-            button2.TabIndex = 25;
-            button2.Text = "Proceed to Checkout";
-            button2.UseVisualStyleBackColor = true;
+            this.button2.Location = new System.Drawing.Point(815, 619);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(146, 40);
+            this.button2.TabIndex = 25;
+            this.button2.Text = "Proceed to Checkout";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(815, 665);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(146, 40);
+            this.button3.TabIndex = 26;
+            this.button3.Text = "Add Booking";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Booking
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1148, 749);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(numericUpDown2);
-            Controls.Add(numericUpDown1);
-            Controls.Add(label8);
-            Controls.Add(label7);
-            Controls.Add(label6);
-            Controls.Add(dateTimePicker2);
-            Controls.Add(label5);
-            Controls.Add(dateTimePicker1);
-            Controls.Add(groupBox1);
-            Name = "Booking";
-            Text = "Booking";
-            groupBox1.ResumeLayout(false);
-            groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown2).EndInit();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1148, 749);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.numericUpDown2);
+            this.Controls.Add(this.numericUpDown1);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.dateTimePicker2);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.groupBox1);
+            this.Name = "Booking";
+            this.Text = "Booking";
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
@@ -339,5 +348,6 @@
         private Label label2;
         private Label label4;
         private Button button2;
+        private Button button3;
     }
 }
