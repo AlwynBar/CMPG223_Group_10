@@ -5,6 +5,7 @@ namespace iSintu_Bookings
     using System;
     using System.Data;
     using System.Data.SqlClient;
+
     public partial class Login : Form
     {
 
@@ -60,7 +61,7 @@ namespace iSintu_Bookings
             }
         }
 
-            
+
         private void btn_Login_Click(object sender, EventArgs e)
         {
             Passw_txt.Clear();
@@ -78,6 +79,16 @@ namespace iSintu_Bookings
             {
                 Passw_txt.UseSystemPasswordChar = true;
             }
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_Login_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }
