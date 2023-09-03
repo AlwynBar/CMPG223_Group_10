@@ -13,6 +13,7 @@ namespace iSintu_Bookings
 {
     public partial class RegisterGuest : Form
     {
+        
         public RegisterGuest()
         {
             InitializeComponent();
