@@ -28,121 +28,154 @@
         /// </summary>
         private void InitializeComponent()
         {
-            dataGridView1 = new DataGridView();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            label1 = new Label();
-            textBox1 = new TextBox();
-            button4 = new Button();
-            button5 = new Button();
-            button6 = new Button();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
-            SuspendLayout();
+            this.components = new System.ComponentModel.Container();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.Name_txt = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.SuspendLayout();
             // 
             // dataGridView1
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(71, 69);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowTemplate.Height = 25;
-            dataGridView1.Size = new Size(712, 188);
-            dataGridView1.TabIndex = 0;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(71, 69);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 25;
+            this.dataGridView1.Size = new System.Drawing.Size(712, 188);
+            this.dataGridView1.TabIndex = 0;
             // 
             // button1
             // 
-            button1.Location = new Point(71, 302);
-            button1.Name = "button1";
-            button1.Size = new Size(98, 35);
-            button1.TabIndex = 1;
-            button1.Text = "Update";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            this.button1.Location = new System.Drawing.Point(71, 302);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(98, 35);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Edit";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // button2
             // 
-            button2.Location = new Point(197, 302);
-            button2.Name = "button2";
-            button2.Size = new Size(98, 35);
-            button2.TabIndex = 2;
-            button2.Text = "Delete";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            this.button2.Location = new System.Drawing.Point(197, 302);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(98, 35);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "Delete";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            button3.Location = new Point(323, 302);
-            button3.Name = "button3";
-            button3.Size = new Size(98, 35);
-            button3.TabIndex = 3;
-            button3.Text = "Display All";
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += button3_Click;
+            this.button3.Location = new System.Drawing.Point(323, 302);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(98, 35);
+            this.button3.TabIndex = 3;
+            this.button3.Text = "Display All";
+            this.button3.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(622, 25);
-            label1.Name = "label1";
-            label1.Size = new Size(42, 15);
-            label1.TabIndex = 4;
-            label1.Text = "Search";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(622, 25);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(42, 15);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Search";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(692, 25);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(127, 23);
-            textBox1.TabIndex = 5;
-            textBox1.TextChanged += textBox1_TextChanged;
+            this.textBox1.Location = new System.Drawing.Point(692, 25);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(127, 23);
+            this.textBox1.TabIndex = 5;
             // 
             // button4
             // 
-            button4.Location = new Point(657, 302);
-            button4.Name = "button4";
-            button4.Size = new Size(126, 35);
-            button4.TabIndex = 7;
-            button4.Text = "Detailed Report";
-            button4.UseVisualStyleBackColor = true;
+            this.button4.Location = new System.Drawing.Point(657, 302);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(126, 35);
+            this.button4.TabIndex = 7;
+            this.button4.Text = "Detailed Report";
+            this.button4.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
-            button5.Location = new Point(439, 302);
-            button5.Name = "button5";
-            button5.Size = new Size(98, 35);
-            button5.TabIndex = 8;
-            button5.Text = "Sort(ASC)";
-            button5.UseVisualStyleBackColor = true;
+            this.button5.Location = new System.Drawing.Point(439, 302);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(98, 35);
+            this.button5.TabIndex = 8;
+            this.button5.Text = "Sort(ASC)";
+            this.button5.UseVisualStyleBackColor = true;
             // 
             // button6
             // 
-            button6.Location = new Point(553, 302);
-            button6.Name = "button6";
-            button6.Size = new Size(98, 35);
-            button6.TabIndex = 9;
-            button6.Text = "Sort(DESC)";
-            button6.UseVisualStyleBackColor = true;
+            this.button6.Location = new System.Drawing.Point(553, 302);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(98, 35);
+            this.button6.TabIndex = 9;
+            this.button6.Text = "Sort(DESC)";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // Name_txt
+            // 
+            this.Name_txt.Location = new System.Drawing.Point(932, 105);
+            this.Name_txt.Name = "Name_txt";
+            this.Name_txt.Size = new System.Drawing.Size(100, 23);
+            this.Name_txt.TabIndex = 10;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(864, 108);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(62, 15);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "Edit Name";
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(932, 145);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(100, 23);
+            this.textBox3.TabIndex = 13;
             // 
             // ManageBookings
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1068, 538);
-            Controls.Add(button6);
-            Controls.Add(button5);
-            Controls.Add(button4);
-            Controls.Add(textBox1);
-            Controls.Add(label1);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(dataGridView1);
-            Name = "ManageBookings";
-            Text = "Manage Bookings";
-            Load += ManageBookings_Load;
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1068, 538);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.Name_txt);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.dataGridView1);
+            this.Name = "ManageBookings";
+            this.Text = "Manage Bookings";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
@@ -156,5 +189,9 @@
         private Button button4;
         private Button button5;
         private Button button6;
+        private TextBox Name_txt;
+        private Label label2;
+        private ContextMenuStrip contextMenuStrip1;
+        private TextBox textBox3;
     }
 }
