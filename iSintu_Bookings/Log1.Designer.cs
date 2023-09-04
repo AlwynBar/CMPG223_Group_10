@@ -58,7 +58,7 @@
             this.groupBox1.Controls.Add(this.Clear_btn);
             this.groupBox1.Location = new System.Drawing.Point(27, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(481, 518);
+            this.groupBox1.Size = new System.Drawing.Size(481, 441);
             this.groupBox1.TabIndex = 11;
             this.groupBox1.TabStop = false;
             // 
@@ -78,7 +78,7 @@
             this.groupBox2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.groupBox2.Controls.Add(this.Create_btn);
             this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Location = new System.Drawing.Point(99, 240);
+            this.groupBox2.Location = new System.Drawing.Point(105, 315);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(323, 49);
             this.groupBox2.TabIndex = 11;
@@ -114,7 +114,7 @@
             // 
             // Login_btn
             // 
-            this.Login_btn.Location = new System.Drawing.Point(99, 310);
+            this.Login_btn.Location = new System.Drawing.Point(105, 253);
             this.Login_btn.Name = "Login_btn";
             this.Login_btn.Size = new System.Drawing.Size(120, 36);
             this.Login_btn.TabIndex = 15;
@@ -156,7 +156,7 @@
             // 
             // Clear_btn
             // 
-            this.Clear_btn.Location = new System.Drawing.Point(260, 310);
+            this.Clear_btn.Location = new System.Drawing.Point(261, 253);
             this.Clear_btn.Name = "Clear_btn";
             this.Clear_btn.Size = new System.Drawing.Size(102, 36);
             this.Clear_btn.TabIndex = 10;
@@ -168,7 +168,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(901, 591);
+            this.ClientSize = new System.Drawing.Size(574, 514);
             this.Controls.Add(this.groupBox1);
             this.Name = "Log1";
             this.Text = "Login";

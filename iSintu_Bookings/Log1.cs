@@ -5,6 +5,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -18,23 +19,25 @@ namespace iSintu_Bookings
             InitializeComponent();
         }
 
-        SqlConnection con = new SqlConnection(@"Data Source=ASUSX515-TABU;Initial Catalog=IsintuBookings;Integrated Security=True");
+        SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-B74G1VM;Initial Catalog=IsintuBookings;Integrated Security=True");
         SqlDataAdapter myAdapter;
         DataTable mydataSet;
+        public static string username, password;
 
         private void Login_btn_Click(object sender, EventArgs e)
         {
-            string username, password;
             username = User_txt.Text;
             password = Passw_txt.Text;
             try
             {
                 con.Open();
-                SqlCommand comm = new SqlCommand("SELECT * FROM Guest WHERE guest_name = '" + User_txt.Text + "' AND guest_password = '" + Passw_txt.Text + "'", con);
+                SqlCommand commG = new SqlCommand("SELECT * FROM Guest WHERE guest_name = '" + User_txt.Text + "' AND guest_password = '" + Passw_txt.Text + "'", con);
+                SqlCommand commE = new SqlCommand("SELECT * FROM Employees WHERE employee_name = '" + User_txt.Text + "' AND employee_password = '" + Passw_txt.Text + "'", con);
                 myAdapter = new SqlDataAdapter();
                 mydataSet = new DataTable();
 
-                myAdapter.SelectCommand = comm;
+                myAdapter.SelectCommand = commG;
+                myAdapter.SelectCommand = commE;
                 myAdapter.Fill(mydataSet);
 
                 if (mydataSet.Rows.Count > 0)
@@ -46,7 +49,6 @@ namespace iSintu_Bookings
                     booking.Show();
                     this.Hide();
                 }
-
                 else
                 {
                     MessageBox.Show("Incorrect Details", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -55,12 +57,12 @@ namespace iSintu_Bookings
                     //to focus on username
                     User_txt.Focus();
                 }
-                con.Close();
             }
             catch (SqlException error)
             {
                 MessageBox.Show(error.Message);
             }
+            con.Close();
         }
 
         private void Clear_btn_Click(object sender, EventArgs e)

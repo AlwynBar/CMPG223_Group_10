@@ -18,7 +18,7 @@ namespace iSintu_Bookings
         {
             InitializeComponent();
         }
-        SqlConnection con = new SqlConnection(@"Data Source=ASUSX515-TABU;Initial Catalog=IsintuBookings;Integrated Security=True");
+        SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-B74G1VM;Initial Catalog=IsintuBookings;Integrated Security=True");
         SqlDataAdapter myAdapter;
         DataTable mydataSet;
 
@@ -26,9 +26,9 @@ namespace iSintu_Bookings
         {
             con = new SqlConnection();
             con.Open();
-            string query = "INSERT INTO Guest (guest_id, guest_name, guest_surname, guest_email) VALUES (@ID, @Name, @Surname, @Email)";
+            string query = "INSERT INTO Guest (guest_id, guest_name, guest_surname, guest_password) VALUES (@Pass, @Name, @Surname, @Email)";
             SqlCommand cmd = new SqlCommand(query, con);
-            cmd.Parameters.AddWithValue("@ID", ID_txt.Text);
+            cmd.Parameters.AddWithValue("@ID", Passw_txt.Text);
             cmd.Parameters.AddWithValue("@Name", Name_txt.Text);
             cmd.Parameters.AddWithValue("@Surname", Surname_txt.Text);
             cmd.Parameters.AddWithValue("@Email", Email_txt.Text);
